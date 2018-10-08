@@ -6,11 +6,11 @@
     "resources": [
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "Storagetatecksi01",
+            "name": "storagetatecksi01",
             "apiVersion": "2015-06-15",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "Storagetatecksi01"
+                "displayName": "storagetatecksi01"
             },
             "properties": {
                 "accountType": "Standard_LRS"
